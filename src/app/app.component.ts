@@ -17,7 +17,7 @@ export class AppComponent {
     },
     {
       title: 'Profile',
-      url: '/home',
+      url: '/profile',
       icon: 'ios-person'
     },
     {
@@ -42,7 +42,7 @@ export class AppComponent {
     },
     {
       title: 'Settings',
-      url: '/list',
+      url: '/settings',
       icon: 'ios-settings'
     }
   ];
