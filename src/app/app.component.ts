@@ -42,7 +42,7 @@ export class AppComponent {
     },
     {
       title: 'Settings',
-      url: '/list',
+      url: '/settings',
       icon: 'ios-settings'
     }
   ];
