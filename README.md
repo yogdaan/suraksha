@@ -28,14 +28,68 @@ Supernova-2 works as public informer meant to keep people safe wherever they go.
 
 ## Introduction
 
-Supernova-2 is meant to analyze and display data to communicate improve public understanding of our home planet.
+Supernova-2 is meant to analyze and display data to improve public understanding of our home planet to be safe.
 
 ### Feature
 
-Supernova helps you in tracking following things:
 
-- Health Issues:<br>
-You can track all the healh issues active in your area, like
+#### What are the safety parameters Supernova will track?
+
+- **Health Issues**<br>
+    You can track possible health issues all over the world or in your area. Following are some things you can track under it.
+    - Mosquito occurrence
+    - Zika virus fever
+    - AIDS/HIV areas.
+    - Other Diseases
+
+- **Environmental Issues**<br>
+    Knowing about the environmental factors, which can affect your health can also be analyzed. Following are some things you can track under it.
+    - UV Index
+    - Weather
+    - Cloudiness
+    - Humidity
+    - temperature
+    - wind speed
+    - wind angle
+
+- **Natural disaster** <br>
+    You can see the forecast of following:
+    - Earthquake
+    - Cyclone
+    - Tsunami
+    - Flood
+    - Hurricanes/Tornadoes/
+    - Thunderstorms
+    - Volcanic eruptions
+    - Droughts
+
+- **Other Information** <br>
+    - Crime Rate
+    - Theft Rate
+    - other usefull information
+
+#### How will supernova help me in an emergency?
+
+- **Alert Your Family** <br>
+    Once click SMS/Email alert to your families. This alert will send your location and other detials, which will make it easy to help you.
+
+- **Help Near Me** <br>
+    You can look for following things near you:
+    - Police Stations
+    - Hospitals
+    - Public Toilet
+    - Medical Stores
+    - Fire Station
+
+#### What other features Supernova have?
+
+- **Accident Detection** <br>
+    Using information from gyroscope, accelerometer, linear acceleration, rotation vetor and other sensors, Supernova can detect accidents, and can automatically inform your emergency contact about it.
+
+#### How is it different from other apps?
+
+    Supernova use graphics/images/graphs etc to display the information, which makes it easy to absorb the information. It also use AI and ML for various features. Supernova also serves as a public informer, so you keep getting important feeds on your dashboard.
+
 
 
 ## Usage
