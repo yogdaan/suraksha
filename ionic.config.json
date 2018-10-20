@@ -1,0 +1,7 @@
+{
+  "name": "supernova",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
