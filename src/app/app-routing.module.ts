@@ -6,17 +6,13 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
-  },
-  {
-    path: 'home',
-    loadChildren: './home/home.module#HomePageModule'
-  },
-  {
-    path: 'list',
-    loadChildren: './list/list.module#ListPageModule'
-  },
+},
+  {path: 'home',loadChildren: './home/home.module#HomePageModule'},
   { path: 'profile', loadChildren: './profile/profile.module#ProfilePageModule' },
-  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' }
+  { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
+  { path: 'explore', loadChildren: './explore/explore.module#ExplorePageModule' },
+  { path: 'help', loadChildren: './help/help.module#HelpPageModule' },
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
 ];
 
 @NgModule({

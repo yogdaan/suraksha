@@ -22,28 +22,38 @@ export class AppComponent {
     },
     {
       title: 'Health Issues',
-      url: '/home',
+      url: '/explore',
       icon: 'ios-heart'
     },
     {
       title: 'Environmental Issues',
-      url: '/home',
+      url: '/explore',
       icon: 'ios-cloud'
     },
     {
       title: 'Natural disaster Issues',
-      url: '/home',
+      url: '/explore',
       icon: 'ios-bonfire'
     },
     {
       title: 'Other Issues',
-      url: '/list',
+      url: '/explore',
       icon: 'ios-flame'
     },
     {
       title: 'Settings',
       url: '/settings',
       icon: 'ios-settings'
+    },
+    {
+      title: 'Help & Feedback',
+      url: '/help',
+      icon: 'ios-help-buoy'
+    },
+    {
+      title: 'About',
+      url: '/about',
+      icon: 'ios-star'
     }
   ];
 
