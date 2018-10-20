@@ -91,6 +91,7 @@ Supernova-2 is meant to analyze and display data to improve public understanding
     Supernova use graphics/images/graphs etc to display the information, which makes it easy to absorb the information. It also use AI and ML for various features. Supernova also serves as a public informer, so you keep getting important feeds on your dashboard.
 
 
+
 ## Usage
 
 To use this app, you can download the Android APK from [here]().
