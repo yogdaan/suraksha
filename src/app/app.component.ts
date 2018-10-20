@@ -17,7 +17,7 @@ export class AppComponent {
     },
     {
       title: 'Profile',
-      url: '/home',
+      url: '/profile',
       icon: 'ios-person'
     },
     {
