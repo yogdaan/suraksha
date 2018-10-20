@@ -28,11 +28,10 @@ Supernova-2 works as public informer meant to keep people safe wherever they go.
 
 ## Introduction
 
-Supernova-2 is meant to analyze and display data to improve public understanding of our home planet to be safe,
+Supernova-2 is meant to analyze and display data to improve public understanding of our home planet to be safe.
 
 ### Feature
 
-Supernova helps you in tracking following information:
 
 #### What are the safety parameters Supernova will track?
 
@@ -53,7 +52,7 @@ Supernova helps you in tracking following information:
     - wind speed
     - wind angle
 
-- **Natural disaster**
+- **Natural disaster** <br>
     You can see the forecast of following:
     - Earthquake
     - Cyclone
@@ -64,6 +63,11 @@ Supernova helps you in tracking following information:
     - Volcanic eruptions
     - Droughts
 
+- **Other Information** <br>
+    - Crime Rate
+    - Theft Rate
+    - other usefull information
+
 #### How will supernova help me in an emergency?
 
 - **Alert Your Family** <br>
@@ -73,14 +77,18 @@ Supernova helps you in tracking following information:
     You can look for following things near you:
     - Police Stations
     - Hospitals
-    - Public Toilate
+    - Public Toilet
     - Medical Stores
     - Fire Station
 
 #### What other features Supernova have?
 
-- **Accident Detection**
+- **Accident Detection** <br>
     Using information from gyroscope, accelerometer, linear acceleration, rotation vetor and other sensors, Supernova can detect accidents, and can automatically inform your emergency contact about it.
+
+#### How is it different from other apps?
+
+    Supernova use graphics/images/graphs etc to display the information, which makes it easy to absorb the information. It also use AI and ML for various features. Supernova also serves as a public informer, so you keep getting important feeds on your dashboard.
 
 
 
