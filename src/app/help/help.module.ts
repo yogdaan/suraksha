@@ -7,6 +7,10 @@ import { IonicModule } from '@ionic/angular';
 
 import { HelpPage } from './help.page';
 
+
+
+
+
 const routes: Routes = [
   {
     path: '',
