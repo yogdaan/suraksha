@@ -3,10 +3,101 @@
       <ion-buttons slot="start">
           <ion-menu-button></ion-menu-button>
         </ion-buttons>
-    <ion-title>Explore</ion-title>
+    <ion-title>Explore Issue</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
+
+
+    <ion-item>
+        <ion-label>Select a Issue</ion-label>
+        <ion-select #C value="Earthquake" ok-text="Okay" cancel-text="Dismiss" (ionChange)="onChange(C.value)">
+          <ion-select-option value="Earthquake" >Earthquake</ion-select-option>
+          <ion-select-option value="Cyclone" >Cyclone</ion-select-option>
+          <ion-select-option value="Tsunami">Tsunami</ion-select-option>
+          <ion-select-option value="Flood">Flood</ion-select-option>
+          <ion-select-option value="Hurricanes/Tornadoes">Hurricanes/Tornadoes</ion-select-option>
+          <ion-select-option value="Volcanic Eruptions">Volcanic eruptions</ion-select-option>
+          <ion-select-option value="Droughts">Droughts</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <br>
+
+
+      <ion-card *ngIf="selected == 'Earthquake'">
+          <ion-img src="assets/earthquake.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Cyclone'">
+          <ion-img src="assets/Cyclone.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Tsunami'">
+          <ion-img src="assets/Tsunami.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Flood'">
+          <ion-img src="assets/flood.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Hurricanes/Tornadoes'">
+          <ion-img src="assets/thunderstorm.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Volcanic Eruptions'">
+          <ion-img src="assets/Volcanic-erruption.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+      <ion-card *ngIf="selected == 'Droughts'">
+          <ion-img src="assets/drought.png"></ion-img>
+          <ion-card-header>
+              <ion-card-title>{{selected}}</ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+              <p>The content for this card</p>
+          </ion-card-content>
+      </ion-card>
+
+
+
+
 
 </ion-content>

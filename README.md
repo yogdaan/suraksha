@@ -5,7 +5,7 @@
 
 # Supernova-2
 
-Supernova-2 works as public informer meant to keep people safe wherever they go.
+Supernova-2 works as public informer meant to keep people safe wherever they go. We focus on showing the most relevent information, in a easy and visual way, also support remote access and all this at once place. The about of information provided is very overwalming and therefor ignored by normal people.
 
 `Under heavy development`
 
@@ -227,10 +227,10 @@ To work on this repository, you need setup the following environment.
 **Mac**
 
 ```console
-brew install node
+$ brew install node
 ```
 
-***Linux**
+**Linux**
 
 - On Debian, Ubuntu, Linux Mint:
 ```console
