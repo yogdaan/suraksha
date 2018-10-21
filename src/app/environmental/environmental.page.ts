@@ -17,8 +17,8 @@ export class EnvironmentalPage {
 
 
     // Default Values
-    openWeatherMapKey: string = "b48d71c76bc12ce4415b45cbb858195f";
-    breezoMeterKey: string = "2d2a717abed743c982bf247bb59be090";
+    openWeatherMapKey: string = "16dfd16edd46dd130e405422fe235bdd";
+    breezoMeterKey: string = "dd9252839e964d6b9f0101bca1c59fc7";
 
     lat: number;
     lon: number;
@@ -81,14 +81,12 @@ constructor(private androidPermissions: AndroidPermissions,
 
 // To get the required permissions
 this.androidPermissions.requestPermissions([
-  this.androidPermissions.PERMISSION.CAMERA,
   this.androidPermissions.PERMISSION.GET_ACCOUNTS,
   this.androidPermissions.PERMISSION.INTERNET,
   this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE,
   this.androidPermissions.PERMISSION.READ_EXTERNAL_STORAGE,
   this.androidPermissions.PERMISSION.ACCESS_FINE_LOCATION,
-  this.androidPermissions.PERMISSION.ACCESS_COARSE_LOCATION,
-  this.androidPermissions.PERMISSION.CAMERA
+  this.androidPermissions.PERMISSION.ACCESS_COARSE_LOCATION
 
   ]).then(() => {
     console.log("getting Geo Location");
