@@ -8,5 +8,90 @@
 </ion-header>
 
 <ion-content padding>
+  <h4>Account</h4> <br>
+  <table border="2" align="center">
+  <tr>Contact:<input type="phone" placeholder="+91-XXXXXXXXX"></tr><br>
+  <tr>Email:<input type="email" placeholder="abc@mail.com"></tr><br>
+  <tr>E-contact<input type="number" placeholder="+91-XXXXXXXXX"></tr><br>
+  <tr>E-contact<input type="number" placeholder="+91-XXXXXXXXX"></tr><br>
+  <tr>E-contact <input type="number" placeholder="+91-XXXXXXXXX"></tr><br>
+  <tr>E-contact<input type="number" placeholder="+91-XXXXXXXXX"></tr><br>
+
+</table>
+<ion-list radio-group>
+  <ion-list-header>
+  <h4>  Distance unit:</h4>
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>miles</ion-label>
+    <ion-radio value="go" name="ion"checked="true"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>kilometer</ion-label>
+    <ion-radio value="g" name="ion"></ion-radio>
+  </ion-item>
+
+</ion-list>
+<h4>Notifications</h4>
+ <div class="holder">
+    <table width="100%">
+      <tr>
+          <ion-item>
+              <ion-label>Sound</ion-label>
+              <ion-toggle [(ngModel)]="sound" checked="true"></ion-toggle>
+            </ion-item>
+            <ion-item>
+                <ion-label>Notifications</ion-label>
+                <ion-toggle [(ngModel)]="notifications" checked="true"></ion-toggle>
+              </ion-item>
+              <ion-item>
+                  <ion-label>Vibrate</ion-label>
+                  <ion-toggle [(ngModel)]="vibrate" checked="true"></ion-toggle>
+                </ion-item>
+                <ion-item>
+                 <ion-label>Enable automatic call</ion-label>
+                 <ion-toggle [(ngModel)]="telephone" checked="true"></ion-toggle>
+               </ion-item>
+               <ion-item>
+                 <ion-label>Monitormode </ion-label>
+                 <ion-toggle [(ngModel)]="Monitormode" checked="true"></ion-toggle>
+               </ion-item>
+       <!-- <td>Sound</td>
+        <td>
+          <div>
+              <ion-toggle value="foo" checked="true"></ion-toggle>
+              <span></span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Notifications</td>
+        <td>
+          <div>
+              <ion-toggle value="foo" checked="true"></ion-toggle>
+              <span></span>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Vibrate</td>
+        <td>
+          <div>
+              <ion-toggle value="foo" checked="true"></ion-toggle>
+              <span></span>
+          </div>
+        </td>
+      </tr>-->
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Save Settings" >
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
 
 </ion-content>
