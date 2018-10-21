@@ -22,7 +22,7 @@ export class AppComponent {
     },
     {
       title: 'Health Issues',
-      url: '/explore',
+      url: '/health',
       icon: 'ios-heart'
     },
     {
@@ -37,7 +37,7 @@ export class AppComponent {
     },
     {
       title: 'Other Issues',
-      url: '/explore',
+      url: '/other',
       icon: 'ios-flame'
     },
     {

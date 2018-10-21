@@ -13,7 +13,10 @@ const routes: Routes = [
   { path: 'explore', loadChildren: './explore/explore.module#ExplorePageModule' },
   { path: 'help', loadChildren: './help/help.module#HelpPageModule' },
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
-  { path: 'environmental', loadChildren: './environmental/environmental.module#EnvironmentalPageModule' }
+  { path: 'environmental', loadChildren: './environmental/environmental.module#EnvironmentalPageModule' },
+  { path: 'health', loadChildren: './health/health.module#HealthPageModule' },
+  { path: 'other', loadChildren: './other/other.module#OtherPageModule' },
+  { path: 'natural', loadChildren: './natural/natural.module#NaturalPageModule' }
 ];
 
 @NgModule({
