@@ -18,7 +18,7 @@ export class EnvironmentalPage {
 
     // Default Values
     openWeatherMapKey: string = "b48d71c76bc12ce4415b45cbb858195f";
-    breezoMeterKey: string = "2d2a717abed743c982bf247bb59be090";
+    breezoMeterKey: string = "dd9252839e964d6b9f0101bca1c59fc7";
 
     lat: number;
     lon: number;
