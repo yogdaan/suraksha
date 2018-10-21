@@ -81,14 +81,12 @@ constructor(private androidPermissions: AndroidPermissions,
 
 // To get the required permissions
 this.androidPermissions.requestPermissions([
-  this.androidPermissions.PERMISSION.CAMERA,
   this.androidPermissions.PERMISSION.GET_ACCOUNTS,
   this.androidPermissions.PERMISSION.INTERNET,
   this.androidPermissions.PERMISSION.WRITE_EXTERNAL_STORAGE,
   this.androidPermissions.PERMISSION.READ_EXTERNAL_STORAGE,
   this.androidPermissions.PERMISSION.ACCESS_FINE_LOCATION,
-  this.androidPermissions.PERMISSION.ACCESS_COARSE_LOCATION,
-  this.androidPermissions.PERMISSION.CAMERA
+  this.androidPermissions.PERMISSION.ACCESS_COARSE_LOCATION
 
   ]).then(() => {
     console.log("getting Geo Location");
