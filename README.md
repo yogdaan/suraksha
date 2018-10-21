@@ -5,7 +5,7 @@
 
 # Supernova-2
 
-Supernova-2 works as public informer meant to keep people safe wherever they go. We focus on showing the most relevent information, in a easy and visual way, also support remote access and all this at once place. The about of information provided is very overwalming and therefor ignored by normal people.
+Supernova-2 works as public informer meant to keep people safe wherever they go.
 
 `Under heavy development`
 
@@ -88,7 +88,7 @@ Supernova-2 is meant to analyze and display data to improve public understanding
 
 #### How is it different from other apps?
 
-    Supernova use graphics/images/graphs etc to display the information, which makes it easy to absorb the information. It also use AI and ML for various features. Supernova also serves as a public informer, so you keep getting important feeds on your dashboard.
+- We focus on showing the most relevent information, in a easy andvisual way so users can absorb more information, also support remote access and all this by just one app.
 
 
 
