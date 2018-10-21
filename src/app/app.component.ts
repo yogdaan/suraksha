@@ -27,7 +27,7 @@ export class AppComponent {
     },
     {
       title: 'Environmental Issues',
-      url: '/explore',
+      url: '/environmental',
       icon: 'ios-cloud'
     },
     {
