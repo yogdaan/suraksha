@@ -15,6 +15,8 @@ import {JsonpModule} from '@angular/http';
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 
+import { Gyroscope } from '@ionic-native/gyroscope/ngx';
+
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
@@ -31,6 +33,7 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
     HttpService,
     AndroidPermissions,
     Geolocation,
+    Gyroscope,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
