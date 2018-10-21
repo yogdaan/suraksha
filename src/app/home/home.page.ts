@@ -1,5 +1,6 @@
 import { Component } from '@angular/core'
 import { Gyroscope, GyroscopeOrientation, GyroscopeOptions } from '@ionic-native/gyroscope/ngx';
+import { ToastController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +9,7 @@ import { Gyroscope, GyroscopeOrientation, GyroscopeOptions } from '@ionic-native
 })
 export class HomePage {
 
-  constructor(public gyroscope: Gyroscope) { }
+  constructor(public gyroscope: Gyroscope, public toastController: ToastController) { }
 
 options: GyroscopeOptions = {
     frequency: 1000
