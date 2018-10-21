@@ -12,7 +12,8 @@ const routes: Routes = [
   { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
   { path: 'explore', loadChildren: './explore/explore.module#ExplorePageModule' },
   { path: 'help', loadChildren: './help/help.module#HelpPageModule' },
-  { path: 'about', loadChildren: './about/about.module#AboutPageModule' }
+  { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'environmental', loadChildren: './environmental/environmental.module#EnvironmentalPageModule' }
 ];
 
 @NgModule({
