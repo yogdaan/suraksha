@@ -3,9 +3,9 @@
     <img src="logo.png" width="160">
 </p><br><br>
 
-# Supernova-2
+# Suraksha
 
-Supernova-2 works as public informer meant to keep people safe wherever they go.
+Suraksha works as public informer meant to keep people safe wherever they go.
 
 `Under heavy development`
 
@@ -28,12 +28,12 @@ Supernova-2 works as public informer meant to keep people safe wherever they go.
 
 ## Introduction
 
-Supernova-2 is meant to analyze and display data to improve public understanding of our home planet to be safe.
+Suraksha is meant to analyze and display data to improve public understanding of our home planet to be safe.
 
 ### Feature
 
 
-#### What are the safety parameters Supernova will track?
+#### What are the safety parameters Suraksha will track?
 
 - **Health Issues**<br>
     You can track possible health issues all over the world or in your area. Following are some things you can track under it.
